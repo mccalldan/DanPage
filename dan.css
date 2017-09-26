@@ -1,0 +1,65 @@
+
+/*Main Elements*/
+html{
+	position: static;
+}
+
+body{
+	font-family: 'Cinzel', serif;
+	background: url("./img/CH.jpeg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    overflow:hidden;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main{
+	flex: 1 0 auto;
+}
+
+/*Navigation Bar*/
+nav{
+	border-bottom: solid;
+	border-color: white;
+	border-width: 5px;
+}
+
+#brand-logo{
+	margin-left: 20px;
+	font-size: 40px;
+}
+
+/*Row 1*/
+#first-row{
+	margin-top: 50px;
+}
+
+img{
+	border-color: #8bc34a;
+	border-width: 5px;
+	border-style: solid;
+}
+
+#bio{
+	font-weight: bold;
+	font-size: 20px;
+	background-color: white;
+	border-color: #8bc34a;
+	border-width: 5px;
+	border-style: solid;
+
+}
+
+/*Footer*/
+footer{
+	text-align: center;
+	color: white;
+	display: block;
+	background-color: #8bc34a;
+	border-top: solid;
+	border-bottom: solid;
+	border-width: 5px;
+	border-color: white;
+	margin-bottom: 0px;
+}
